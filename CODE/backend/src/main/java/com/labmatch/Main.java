@@ -84,8 +84,7 @@ private static final TextFileService textFileService =
     ) throws Exception {
 
 
-        HttpServer server =
-               HttpServer server = HttpServer.create(
+       HttpServer server = HttpServer.create(
     new InetSocketAddress(
         "0.0.0.0",
         Integer.parseInt(System.getenv().getOrDefault("PORT", "8080"))
