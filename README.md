@@ -1,16 +1,22 @@
-**Automated Student–Lab Allocation:**
-An automated system that assigns students to laboratory sessions based on student preferences and lab capacity constraints.
+# LabMatch – Smart Lab Allocation System
 
-**Key Features:**
-1.Maximum Bipartite Matching
-2.Student preference handling
-3.Lab capacity management
-4.Automatic student–lab allocation
-5.Allocation reports
-6.Bipartite graph visualization
+🚀 **Live Demo:** https://labmatch-frontend-ngzt.onrender.com
 
-**Core Algorithm:**
-Maximum Bipartite Matching (Hopcroft–Karp)
+🔧 **Backend API:** https://labmatch-backend-dglg.onrender.com
 
-**Goal:**
-To maximize the number of successful student–lab assignments while ensuring efficient and systematic resource allocation
+## About the Project
+LabMatch automates student-to-lab allocation using the Hopcroft–Karp maximum bipartite matching algorithm.
+
+## Features
+- Automated student-to-lab allocation
+- Excel upload for student and lab data
+- Lab capacity management
+- Seating layout visualization
+- Matching results and allocation statistics
+
+## Technology Stack
+- Java
+- Maven
+- HTML, CSS, JavaScript
+- Hopcroft–Karp Algorithm
+- Render deployment
